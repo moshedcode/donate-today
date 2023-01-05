@@ -1,0 +1,140 @@
+/* header shit */
+
+.headeralign{
+    text-align: center;
+    font-size: 30px;
+    padding: 175px 300px 175px;
+    color: white;
+}
+
+.header{
+    background-color: rgb(90, 89, 89);
+    background-image: url('images/donation11.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:multiply;
+}
+
+.headeralign p{
+    font-size: 18px;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.donatenowbutton{
+    height: 50px;
+    background: #f3604f;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    border: 0;
+    padding: 10px 15px 10px;
+}
+
+/* donate today */
+
+.donatetoday{
+    text-align: center;
+    padding: 100px 200px;
+}
+
+.donatetitle{
+    font-size: 40px;
+}
+
+.donatewhy{
+    color: #665e5e;
+    padding: 5px 40px;
+}
+.amount{
+    display: flex;
+    
+}
+
+.amount p:not(.redbox){
+    background: #f4f3f3;
+    box-shadow: 0px 6px 50px rgb(0 0 0 / 6%);
+    border-radius: 5px;
+    padding: 30px;
+    margin-left: 30px;
+    font-size: 30px;
+    text-align: justify;
+    color: #665e5e;
+    font-weight: 800;
+}
+
+.redbox{
+    border-color: #f47263;
+    border-style: solid;
+    background: #f8c9c4;
+    color: #f3604f;
+    box-shadow: 0px 6px 50px rgb(0 0 0 / 6%);
+    border-radius: 5px;
+    padding: 30px;
+    margin-left: 30px;
+    font-size: 30px;
+    text-align: justify;
+    font-weight: 800;
+    
+    
+}
+
+/* donate now */
+
+
+input[type=text]{
+    border: none;
+    border-bottom: 2px solid rgb(200, 187, 187);
+    width: 600px;
+    text-align: center;
+    font-size: 17px;
+
+  }
+
+
+  /* our donation plan */
+
+ .plan1{
+    background-color: rgb(240, 251, 251);
+    
+    padding: 50px 30px;
+ }
+ .plan2{
+    background-color:rgb(252, 234, 240);
+    padding: 50px 30px;
+ }
+ .plan3{
+    background-color: #fdedd6;
+    padding: 50px 30px;
+ }
+
+.plancontext{
+    text-align: center;
+    margin: 100px 300px 0px;
+}
+
+.plancontext p{
+    color: #665e5e;
+}
+
+.plancontext h3{
+    font-size: 40px;
+}
+
+.planlist{
+    display: flex;
+    /* text-align: justify; */
+    gap: 26px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 100px 50px;
+  
+}
+
+.plandescription{
+    color: #817878;
+}
